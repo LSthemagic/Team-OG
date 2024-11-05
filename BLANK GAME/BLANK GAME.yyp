@@ -40,6 +40,7 @@
   },
   "name":"BLANK GAME",
   "resources":[
+    {"id":{"name":"fnt_pontos","path":"fonts/fnt_pontos/fnt_pontos.yy",},},
     {"id":{"name":"oAlienigena","path":"objects/oAlienigena/oAlienigena.yy",},},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
     {"id":{"name":"obj_giant_ball","path":"objects/obj_giant_ball/obj_giant_ball.yy",},},

@@ -1,7 +1,11 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-
+//Se o jogo acabou, sair do evento
+//if (global.acabou){
+//	exit
+//}
+	
 global.pontos += 0.1;
 
 
