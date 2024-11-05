@@ -13,5 +13,5 @@ else {
 
 // Destrói o objeto `other` (caixa) após a colisão
 with (other) {
-    instance_destroy();
+   instance_destroy();
 }

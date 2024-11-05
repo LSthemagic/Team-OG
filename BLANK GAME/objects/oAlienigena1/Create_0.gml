@@ -1,5 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-image_speed = 3; 
-deslocamento_ao_atingido = 20;
+// Inherit the parent event
+event_inherited();
+
+image_xscale = 0.3;
+image_yscale = 0.3;
