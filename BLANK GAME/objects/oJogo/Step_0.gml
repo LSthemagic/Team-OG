@@ -8,6 +8,7 @@ global.pontos += 0.1;
 if (global.pontos >= global.dificuldade * 100) {
     global.dificuldade++;
 	layer_hspeed("Ground", -(1 + global.dificuldade));
+	layer_hspeed("Background", -((1 + global.dificuldade) / 2));
 	layer_hspeed("Roof", -(1 + global.dificuldade));
 }
 
