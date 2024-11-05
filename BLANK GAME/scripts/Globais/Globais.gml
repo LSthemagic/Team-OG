@@ -3,6 +3,8 @@
 
 
 global.pontos = 0;
+
+global.record = 0;
 	
 global.dificuldade = 1;
 
