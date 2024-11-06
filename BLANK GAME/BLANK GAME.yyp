@@ -42,10 +42,12 @@
   },
   "name":"BLANK GAME",
   "resources":[
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_pontos","path":"fonts/fnt_pontos/fnt_pontos.yy",},},
     {"id":{"name":"oAlienigena","path":"objects/oAlienigena/oAlienigena.yy",},},
     {"id":{"name":"oAlienigena1","path":"objects/oAlienigena1/oAlienigena1.yy",},},
     {"id":{"name":"obj_giant_ball","path":"objects/obj_giant_ball/obj_giant_ball.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_powerup","path":"objects/obj_powerup/obj_powerup.yy",},},
     {"id":{"name":"obj_solid_ground","path":"objects/obj_solid_ground/obj_solid_ground.yy",},},
     {"id":{"name":"obj_solid_roof","path":"objects/obj_solid_roof/obj_solid_roof.yy",},},
@@ -54,6 +56,7 @@
     {"id":{"name":"oDino","path":"objects/oDino/oDino.yy",},},
     {"id":{"name":"oJogo","path":"objects/oJogo/oJogo.yy",},},
     {"id":{"name":"oObstaculos","path":"objects/oObstaculos/oObstaculos.yy",},},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Globais","path":"scripts/Globais/Globais.yy",},},
     {"id":{"name":"sAlienigena","path":"sprites/sAlienigena/sAlienigena.yy",},},
@@ -70,6 +73,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
