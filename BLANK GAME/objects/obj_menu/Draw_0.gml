@@ -34,3 +34,5 @@ for(var i = 0; i < array_length(menu); i++;) {
 //remember to reset draw_set_* values!
 
 draw_set_color(c_white)
+
+draw_text(435, 12, "Record: " + string(round(global.record)));
