@@ -1,19 +1,15 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
-//ja_colidiu = false;
-
-// Inicializa a semente aleatória no início do jogo
+// Inicializa a semente aleatória apenas uma vez
 if (!global.random_initialized) {
     randomize();
     global.random_initialized = true;
 }
 
-// Define o primeiro alarme para iniciar a sequência
-alarm[0] = room_speed * random_range(0.5, 2);   // Alarme entre 0.5 e 2 segundos
+// Configura o primeiro alarme (entre 0.5 e 2 segundos)
+alarm[0] = room_speed * random_range(0.5, 2);  
+
+// Configura o segundo alarme (entre 3 e 4 segundos) - ajuste conforme necessário
 alarm[2] = room_speed * random_range(3, 4);
 
-// PowerUp
-// TODO: Colocar o limite a altura do pulo do personagem
-powerup_y_limit = 224 - 100
+// Exemplo para PowerUp (ajuste conforme necessário)
+powerup_y_limit = 224 - 100;
 alarm[1] = room_speed * random_range(30, 45);

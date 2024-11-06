@@ -8,7 +8,7 @@ if (other.x > x) {
     x -= deslocamento_ao_atingido; // Ajuste a direção e a distância do empurrão conforme necessário
 }
 else {
-    x += deslocamento_ao_atingido; // Caso contrário, empurre para o lado oposto
+    //x += deslocamento_ao_atingido; // Caso contrário, empurre para o lado oposto
 }
 
 // Destrói o objeto `other` (caixa) após a colisão

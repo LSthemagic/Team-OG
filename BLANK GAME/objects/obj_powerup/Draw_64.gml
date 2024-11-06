@@ -1,1 +1,1 @@
-draw_text(200, 200, y)
+//draw_text(200, 200, y)
