@@ -5,6 +5,8 @@ function MovePerson(){
         initial_y = y;          // Salva a posição inicial Y
         y -= 50;                // Move o personagem para cima
         timer = 30;            // Define o temporizador para 2 segundos (120 steps)
+		
+		audio_play_sound(snd_jump, 0, 0);
     }
 
     // Se o movimento para cima foi ativado

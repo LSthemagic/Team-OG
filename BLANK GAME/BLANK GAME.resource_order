@@ -35,6 +35,7 @@
     {"name":"oObstaculos","order":4,"path":"objects/oObstaculos/oObstaculos.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"MovePerson","order":1,"path":"scripts/MovePerson/MovePerson.yy",},
+    {"name":"snd_fail","order":1,"path":"sounds/snd_fail/snd_fail.yy",},
     {"name":"sAlienigena","order":1,"path":"sprites/sAlienigena/sAlienigena.yy",},
     {"name":"sAlienigena1","order":2,"path":"sprites/sAlienigena1/sAlienigena1.yy",},
     {"name":"sDino","order":3,"path":"sprites/sDino/sDino.yy",},
