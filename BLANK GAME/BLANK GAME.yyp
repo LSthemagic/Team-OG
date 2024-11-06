@@ -59,6 +59,7 @@
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Globais","path":"scripts/Globais/Globais.yy",},},
+    {"id":{"name":"MovePerson","path":"scripts/MovePerson/MovePerson.yy",},},
     {"id":{"name":"sAlienigena","path":"sprites/sAlienigena/sAlienigena.yy",},},
     {"id":{"name":"sAlienigena1","path":"sprites/sAlienigena1/sAlienigena1.yy",},},
     {"id":{"name":"sCaixa","path":"sprites/sCaixa/sCaixa.yy",},},
