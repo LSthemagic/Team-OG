@@ -1,5 +1,4 @@
 // Peguei da net
-
 draw_set_font(fnt_menu)
 
 menu_box_w = 100; //width

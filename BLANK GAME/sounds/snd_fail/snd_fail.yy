@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.198367,
+  "duration":3.369796,
   "name":"snd_fail",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_fail.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.36,
 }

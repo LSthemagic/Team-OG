@@ -3,6 +3,10 @@
 window_set_size(1366, 768)
 window_set_fullscreen(true)
 
+if (global.derrota == true){
+	audio_play_sound(snd_fail, 0, 0);
+}
+
 menu[0] = "Novo jogo"
 menu[1] = "Sair"
 

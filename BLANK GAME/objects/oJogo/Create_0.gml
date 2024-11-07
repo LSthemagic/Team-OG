@@ -1,4 +1,5 @@
 // Inicializa a semente aleatória apenas uma vez
+audio_play_sound(snd_game, 0, 1);
 if (!global.random_initialized) {
     randomize();
     global.random_initialized = true;

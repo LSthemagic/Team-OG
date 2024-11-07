@@ -61,6 +61,7 @@
     {"id":{"name":"Globais","path":"scripts/Globais/Globais.yy",},},
     {"id":{"name":"MovePerson","path":"scripts/MovePerson/MovePerson.yy",},},
     {"id":{"name":"snd_fail","path":"sounds/snd_fail/snd_fail.yy",},},
+    {"id":{"name":"snd_game","path":"sounds/snd_game/snd_game.yy",},},
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},},
     {"id":{"name":"sAlienigena","path":"sprites/sAlienigena/sAlienigena.yy",},},
     {"id":{"name":"sAlienigena1","path":"sprites/sAlienigena1/sAlienigena1.yy",},},

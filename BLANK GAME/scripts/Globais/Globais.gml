@@ -9,3 +9,5 @@ global.record = 0;
 global.dificuldade = 1;
 
 global.random_initialized = false;
+
+global.derrota = false;
