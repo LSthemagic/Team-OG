@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oCaixa",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_giant_ball","path":"objects/obj_giant_ball/obj_giant_ball.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oCaixa",
   "overriddenProperties":[],
