@@ -1,6 +1,7 @@
 function MovePerson(){
     // Inicia o pulo se a tecla para cima for pressionada e o personagem não estiver em movimento
     if (keyboard_check_pressed(vk_up) && !moving_up) {
+		audio_play_sound(snd_jump, 0, 0);
         moving_up = true;            // Ativa o movimento
         initial_y = y;               // Salva a posição inicial Y
         jump_velocity = -jump_speed; // Configura a velocidade inicial para pulo para cima
