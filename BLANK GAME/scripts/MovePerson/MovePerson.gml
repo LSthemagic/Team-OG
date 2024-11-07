@@ -1,26 +1,31 @@
 function MovePerson(){
-    // Verifica se a tecla para cima é pressionada e o personagem não está em movimento
+    // Inicia o pulo se a tecla para cima for pressionada e o personagem não estiver em movimento
     if (keyboard_check_pressed(vk_up) && !moving_up) {
-        moving_up = true;       // Ativa o movimento
-        initial_y = y;          // Salva a posição inicial Y
-        y -= 50;                // Move o personagem para cima
-        timer = 30;            // Define o temporizador para 2 segundos (120 steps)
-		
-		audio_play_sound(snd_jump, 0, 0);
+        moving_up = true;            // Ativa o movimento
+        initial_y = y;               // Salva a posição inicial Y
+        jump_velocity = -jump_speed; // Configura a velocidade inicial para pulo para cima
+        image_speed = 0;             // Define a velocidade da animação
     }
 
-    // Se o movimento para cima foi ativado
+    // Executa o pulo, aplicando a gravidade gradualmente
     if (moving_up) {
-        timer -= 1;             // Reduz o temporizador
-        show_debug_message("Timer: " + string(timer)); // Mostra o valor do temporizador no console
+        y += jump_velocity;         // Aplica a velocidade ao eixo Y
+        jump_velocity += _gravity;   // Aplica a gravidade
 
-        // Quando o temporizador chega a zero, retorna à posição original
-        if (timer <= 0) {
-            y = initial_y;      // Retorna para a posição inicial Y
-            moving_up = false;  // Reseta o estado de movimento
+        // Verifica se atingiu a altura máxima do pulo
+        if (y >= initial_y) {
+            y = initial_y;          // Retorna para a posição inicial Y
+            moving_up = false;      // Reseta o estado de movimento
+            image_speed = 1;        // Retorna a velocidade da animação
         }
     }
-	if(keyboard_check_pressed(vk_down)){
-		y = initial_y;
-	}
+
+    // Comando adicional para cancelar o pulo e retornar à posição inicial
+    if (keyboard_check_pressed(vk_down)) {
+        y = initial_y;
+        moving_up = false;
+        jump_velocity = 0;          // Reseta a velocidade
+		image_speed = 1;
+    }
 }
+
