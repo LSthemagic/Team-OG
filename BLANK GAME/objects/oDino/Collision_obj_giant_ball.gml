@@ -7,6 +7,8 @@ if (global.pontos > global.record){
 global.pontos = 0;
 global.dificuldade = 1;
 
-//audio_play_sound(snd_fail, 0, 0);
+effect_create_above(ef_explosion, x, y, 1, c_blue)
+
+audio_play_sound(snd_fail, 0, 0);
 game_restart();
 
